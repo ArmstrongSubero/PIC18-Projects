@@ -55,11 +55,11 @@ void initMain()
 }
 
 /*******************************************************************************
- * Function: void interrupt isr(void)
+ * Function: void interrupt PORTB_ISR()
  *
  * Returns: Nothing
  *
- * Description: Timer0 interrupt at a rate of 1 second
+ * Description: PORTB interrupt
  ******************************************************************************/
 
 void interrupt PORTB_ISR()                           // PORTB ISR
