@@ -1,0 +1,105 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4553 ]
+[d frameptr 4065 ]
+"29 C:\Users\armst\Desktop\PIC18F4553\01_Switch.X\18F4553_STD.c
+[v _delay_us delay_us `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"31 C:\Users\armst\Desktop\PIC18F4553\01_Switch.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+[s S37 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"2993 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic18f4553.h
+[s S152 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S161 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S164 . 1 `S37 1 . 1 0 `S152 1 . 1 0 `S161 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES164  1 e 1 @3971 ]
+[s S68 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3637
+[s S77 . 1 `uc 1 LD0 1 0 :1:0 
+]
+[s S79 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+]
+[s S82 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LD2 1 0 :1:2 
+]
+[s S85 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LD3 1 0 :1:3 
+]
+[s S88 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LD4 1 0 :1:4 
+]
+[s S91 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LD5 1 0 :1:5 
+]
+[s S94 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LD6 1 0 :1:6 
+]
+[s S97 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S100 . 1 `S68 1 . 1 0 `S77 1 . 1 0 `S79 1 . 1 0 `S82 1 . 1 0 `S85 1 . 1 0 `S88 1 . 1 0 `S91 1 . 1 0 `S94 1 . 1 0 `S97 1 . 1 0 ]
+[v _LATDbits LATDbits `VES100  1 e 1 @3980 ]
+[s S28 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4381
+[u S46 . 1 `S28 1 . 1 0 `S37 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES46  1 e 1 @3989 ]
+"31 C:\Users\armst\Desktop\PIC18F4553\01_Switch.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+} 0
