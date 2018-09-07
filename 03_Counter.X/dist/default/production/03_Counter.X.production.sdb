@@ -1,0 +1,144 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4553 ]
+[d frameptr 4065 ]
+"29 C:\Users\armst\Desktop\PIC18F4553\03_Counter.X\18F4553_STD.c
+[v _delay_us delay_us `(v  1 e 1 0 ]
+"43
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"32 C:\Users\armst\Desktop\PIC18F4553\03_Counter.X\Main.c
+[v _initMain initMain `(v  1 e 1 0 ]
+"64
+[v _ReadTimer0 ReadTimer0 `(uc  1 e 1 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+[s S88 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3637 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic18f4553.h
+[s S97 . 1 `uc 1 LD0 1 0 :1:0 
+]
+[s S99 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+]
+[s S102 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LD2 1 0 :1:2 
+]
+[s S105 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LD3 1 0 :1:3 
+]
+[s S108 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LD4 1 0 :1:4 
+]
+[s S111 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LD5 1 0 :1:5 
+]
+[s S114 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LD6 1 0 :1:6 
+]
+[s S117 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S120 . 1 `S88 1 . 1 0 `S97 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 `S105 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 `S114 1 . 1 0 `S117 1 . 1 0 ]
+[v _LATDbits LATDbits `VES120  1 e 1 @3980 ]
+[s S21 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4381
+[s S30 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S39 . 1 `S21 1 . 1 0 `S30 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES39  1 e 1 @3989 ]
+[s S61 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"8463
+[s S68 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S72 . 1 `S61 1 . 1 0 `S68 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES72  1 e 1 @4053 ]
+"8512
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"84 C:\Users\armst\Desktop\PIC18F4553\03_Counter.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"89
+[v main@count count `uc  1 a 1 6 ]
+"118
+} 0
+"32
+[v _initMain initMain `(v  1 e 1 0 ]
+{
+"53
+} 0
+"43 C:\Users\armst\Desktop\PIC18F4553\03_Counter.X\18F4553_STD.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+"45
+[v delay_ms@i i `uc  1 a 1 5 ]
+"43
+[v delay_ms@ms ms `ui  1 p 2 3 ]
+"52
+} 0
+"29
+[v _delay_us delay_us `(v  1 e 1 0 ]
+{
+"31
+[v delay_us@us us `uc  1 a 1 2 ]
+"29
+[v delay_us@x x `ui  1 p 2 0 ]
+"34
+} 0
+"64 C:\Users\armst\Desktop\PIC18F4553\03_Counter.X\Main.c
+[v _ReadTimer0 ReadTimer0 `(uc  1 e 1 0 ]
+{
+"67
+[v ReadTimer0@readVal readVal `uc  1 a 1 0 ]
+"74
+} 0
