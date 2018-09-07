@@ -15,7 +15,7 @@
  ******************************************************************************/
 
 // Configuration Bits
-#pragma config FOSC = HS              // Oscillator Selection bits (HS oscillator (HS))
+#pragma config FOSC = HSPLL_HS              // Oscillator Selection bits (HS oscillator (HS))
 #pragma config IESO = OFF             // Switch over Disabled, Put IESO = ON to enable
 #pragma config PLLDIV = 4             // Divide by 4 (16MHz input)
 #pragma config CPUDIV = OSC1_PLL2     // [OSC1/OSC2 Src: /1][96MHz PLL Src: /2]
