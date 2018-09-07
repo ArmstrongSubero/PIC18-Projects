@@ -29,7 +29,7 @@
 void delay_us(uint16_t x) 
 { 
     unsigned char us; 
-    us = x /(48000000/48000000)|1; 
+    us = x /(144000000/48000000)|1; 
     while(--us != 0) continue; 
 } 
 
