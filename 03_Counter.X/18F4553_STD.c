@@ -38,7 +38,7 @@ void delay_us(uint16_t x)
  *
  * Returns: Nothing
  *
- * Description: delay milliseconds, assumes 48 MHz Clock
+ * Description: delay no of milliseconds, assumes 48 MHz Clock
  ******************************************************************************/
 void delay_ms(uint16_t ms)
 {
