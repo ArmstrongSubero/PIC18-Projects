@@ -1,0 +1,85 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4553 ]
+[d frameptr 4065 ]
+"29 C:\Users\armst\Desktop\PIC18F4553\11_PWM.X\18F4553_STD.c
+[v _delay_us delay_us `(v  1 e 1 0 ]
+"43
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"30 C:\Users\armst\Desktop\PIC18F4553\11_PWM.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+"6708 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic18f4553.h
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"6875
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"7583
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"7680
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"7789
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+"10531
+[v _TMR2ON TMR2ON `VEb  1 e 0 @32338 ]
+"10587
+[v _TRISC2 TRISC2 `VEb  1 e 0 @31906 ]
+"30 C:\Users\armst\Desktop\PIC18F4553\11_PWM.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"44
+[v main@i i `i  1 a 2 20 ]
+"54
+} 0
+"43 C:\Users\armst\Desktop\PIC18F4553\11_PWM.X\18F4553_STD.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+"45
+[v delay_ms@i i `uc  1 a 1 19 ]
+"43
+[v delay_ms@ms ms `ui  1 p 2 17 ]
+"52
+} 0
+"29
+[v _delay_us delay_us `(v  1 e 1 0 ]
+{
+"31
+[v delay_us@us us `uc  1 a 1 16 ]
+"29
+[v delay_us@x x `ui  1 p 2 14 ]
+"34
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"8
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"42
+} 0
